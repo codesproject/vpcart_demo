@@ -197,7 +197,7 @@ a.btn.btn-lg.btn-primary {
 
 .aboutHeader {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     color: #0087e4;
     font-weight: 300;
 }
@@ -205,15 +205,15 @@ a.btn.btn-lg.btn-primary {
         font-family: 'Open Sans', sans-serif;
     font-size: .96rem;
     line-height: 26px;
-    color: #8e8e8e;
+    color: #717171;
     text-align: justify;
 }
 
 button.shopNow {
-       margin-top: 20px;
+          margin-top: 20px;
     background-color: #ffffff;
     border-radius: 30px;
-    padding: 10px 50px;
+    padding: 6px 40px;
     border: 1px solid #cacaca;
     font-size: .9rem;
     color: #0087e4;
