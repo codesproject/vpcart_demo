@@ -68,7 +68,7 @@ body {
     display: flex;
     align-content: center;
     width: 90%;
-    padding: 2.1rem 0;
+    padding: 1.5rem 0;
     margin: auto;
 }
 
@@ -294,7 +294,7 @@ button.shopNow {
 }
 
 .dimColor {
-    color: #379ab5;
+    color: #94b8c1;
 }
 
 .categoryContainer {
@@ -471,9 +471,7 @@ i.fas.fa-angle-right {
 
 @media (max-width:710px) {
 
-    .container-about {
-        display: block;
-    }
+   
 
     .container-about {
         flex-direction: column;
