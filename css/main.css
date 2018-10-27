@@ -311,19 +311,18 @@ button.shopNow {
 }
 
 .newsContainer {
+    clear: both;
     margin: 5rem 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding: 65px 0;
+    align-items: center;
 }
 
-.newSubscribe {
-
-    flex-basis: 40%
-}
+.newSubscribe {}
 
 .newsTitle {
-    flex-basis: 40%;
+
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
@@ -382,18 +381,29 @@ i.fas.fa-angle-right {
     .headerTop .headerBox:nth-child(2) {
         flex: 3;
     }
+    .newsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    .newSubscribe {
+        margin-top: 20px;
+    }
+
 }
 
 
 @media (max-width:480px) {
     .headerTop {
-        display: block;
+        /*display: block;*/
     }
+    .headerTop {
+        width: 95%; }
 
     .headerBox {
         display: flex;
         align-content: center;
-        justify-content: center;
     }
 
     .topLeftBox,
@@ -402,6 +412,9 @@ i.fas.fa-angle-right {
         text-align: center;
     }
     .headerTop .headerBox:nth-child(2) {
+            display: flex;
+    flex-direction: column;
+    align-items: flex-end;
         padding: 5px 0;
     }
 
@@ -485,17 +498,23 @@ i.fas.fa-angle-right {
 
 @media (max-width:785px) {
     .prodContainer {
-    display: flex;
+        display: flex;
         flex-direction: column;
         width: 80%;
-}
+    }
 
 }
 
 @media (max-width:450px) {
     .listProd {
-     display: flex;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headerTop .headerBox:nth-child(2) {
+    display: flex;
     flex-direction: column;
+        align-items: flex-end;
 }
 
 }
