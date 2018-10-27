@@ -205,20 +205,21 @@ a.btn.btn-lg.btn-primary {
 }
 
 .aboutCnt {
-    font-family: 'Open Sans', sans-serif;
-    font-size: .96rem;
-    line-height: 26px;
-    color: #717171;
+        font-family: 'Open Sans', sans-serif;
+    font-size: .86rem;
+    line-height: 28px;
+    color: #8a8a8a;
     text-align: justify;
 }
 
 button.shopNow {
-    margin-top: 20px;
+       margin-top: 20px;
     background-color: #ffffff;
     border-radius: 30px;
-    padding: 6px 40px;
-    border: 1px solid #cacaca;
-    font-size: .9rem;
+    padding: 9px 42px;
+    border: 1px solid #7ebcff;
+    font-size: .81rem;
+    font-weight: 600;
     color: #0087e4;
 }
 
@@ -241,7 +242,7 @@ button.shopNow {
 .prodHeader {
     font-size: 1.25rem;
     line-height: 42px;
-    border-bottom: 2px solid #8a8a8a;
+    border-bottom: 2px solid #4db9f4;
 }
 
 .listProd {
@@ -255,8 +256,8 @@ button.shopNow {
 }
 
 .prodImg {
-    margin-top: 30px;
-    border: 1px solid #cecece;
+        margin-top: 30px;
+    border: 1px solid #daeaf3;
     padding: 45px 5px;
     text-align: center;
 }
@@ -405,6 +406,14 @@ i.fas.fa-angle-right {
         display: flex;
         align-content: center;
     }
+    
+    .aboutHeader {
+    font-size: 1.3rem;
+    color: #0087e4;
+    line-height: 39px;
+    font-weight: 400;
+    text-align: center;
+}
 
     .topLeftBox,
     .headerBox .topLeftBox:nth-child(2) {
