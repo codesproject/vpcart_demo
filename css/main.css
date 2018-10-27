@@ -301,7 +301,7 @@ button.shopNow {
 .categoryContainer {
     margin: auto;
     text-align: center;
-    padding: 75px 0;
+    padding: 75px 5px;
     padding-bottom: 45px;
     background: #1575cf;
     margin-top: 30px;
