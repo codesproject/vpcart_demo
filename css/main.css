@@ -410,6 +410,7 @@ i.fas.fa-angle-right {
     .headerBox .topLeftBox:nth-child(2) {
         flex-basis: 35%;
         text-align: center;
+        flex-basis:
     }
     .headerTop .headerBox:nth-child(2) {
             display: flex;
@@ -450,19 +451,20 @@ i.fas.fa-angle-right {
 
     .logo-section,
     .cart-section {
-        flex-basis: 80%
+        flex-basis: 45%
     }
 
     .logo-section img,
     .cart-section img {
         margin: auto;
         text-align: center;
+        width: 120%;
     }
 
     .logo-section {
-        margin: auto;
+       /* margin: auto;*/
         margin-top: 20px;
-        flex: none;
+        
     }
 
 }
